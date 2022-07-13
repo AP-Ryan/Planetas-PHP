@@ -1,0 +1,55 @@
+main{
+    height: 44vw;
+    background-image: url('../img/space.jpg');
+}
+
+
+p{
+    color: white;
+    text-align: center;
+    text-justify: auto;
+    font-size: 16pt;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black, 2px 2px 2px black, 2px 2px 2px black;
+}
+
+h1{
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+    color: white;
+    padding-top: 10px;
+    font-size: 35pt;
+}
+
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    vertical-align: auto;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    vertical-align: auto;
+    justify-content: space-evenly;
+}
+
+.listaplaneta{
+    width: 700px;
+}
+
+.planetas{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 1px 1px 2px black, 0 0 1em aqua, 0 0 0.2em aqua;
+}
